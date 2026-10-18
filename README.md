@@ -1,6 +1,6 @@
 # UAE B2B Automotive & Fleet Sales Intelligence Engine
 
-▶ **[Open the live dashboard](https://akhilamg63.github.io/uae-fleet-sales-intelligence/Fleet_Sales_Dashboard.html)** — 18 charts, six tabs, no install required.
+https://akhilamg63.github.io/uae-fleet-sales-intelligence/
 
 **A commercial decision-support system for a (fictional) UAE fleet dealer group — not an academic ML exercise.**
 Lead Scoring → Sales Pipeline → Conversion → Customer Churn → Revenue at Risk → Fleet Renewal/Upgrade → Marketing Analytics.
