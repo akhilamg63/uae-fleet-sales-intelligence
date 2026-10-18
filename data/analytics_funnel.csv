@@ -1,0 +1,6 @@
+Stage,Leads_Reached,Value_AED,Pct_of_Total,Stage_Conversion_Pct,Drop_Off_Pct,Leads_Lost_At_Stage,Value_Lost_AED
+Prospect,2000,6019392000.0,100.0,,,0,0.0
+Qualified,1751,5386231000.0,87.6,87.6,12.4,249,633161000.0
+Proposal,1571,4935473000.0,78.6,89.7,10.3,180,450758000.0
+Negotiation,1304,4317411000.0,65.2,83.0,17.0,267,618062000.0
+Won,608,2476918000.0,30.4,46.6,53.4,696,1840493000.0

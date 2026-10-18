@@ -1,0 +1,142 @@
+{
+  "lead_scoring": {
+    "champion": "Logistic Regression",
+    "performance": {
+      "Logistic Regression": {
+        "Accuracy": 0.7580246913580246,
+        "Precision": 0.6551724137931034,
+        "Recall": 0.75,
+        "F1": 0.6993865030674846,
+        "ROC_AUC": 0.8236166007905139,
+        "CV_ROC_AUC_mean": 0.8039317445873195,
+        "CV_ROC_AUC_std": 0.022824991941882266,
+        "Train_ROC_AUC": 0.8236108221806162,
+        "n_train": 1215,
+        "n_test": 405
+      },
+      "Random Forest": {
+        "Accuracy": 0.745679012345679,
+        "Precision": 0.6484848484848484,
+        "Recall": 0.7039473684210527,
+        "F1": 0.6750788643533123,
+        "ROC_AUC": 0.8129030580403578,
+        "CV_ROC_AUC_mean": 0.793473777498223,
+        "CV_ROC_AUC_std": 0.020326088939294582,
+        "Train_ROC_AUC": 0.8640379770242471,
+        "n_train": 1215,
+        "n_test": 405
+      }
+    },
+    "confusion_matrix": {
+      "Logistic Regression": {
+        "TN": 193,
+        "FP": 60,
+        "FN": 38,
+        "TP": 114
+      },
+      "Random Forest": {
+        "TN": 195,
+        "FP": 58,
+        "FN": 45,
+        "TP": 107
+      }
+    },
+    "features_numeric": [
+      "Fleet_Size",
+      "Units_Requested",
+      "Deal_Value_AED",
+      "Days_in_Pipeline",
+      "Number_of_Sales_Calls",
+      "Days_Since_Last_Contact"
+    ],
+    "features_categorical": [
+      "Industry",
+      "Company_Size",
+      "Lead_Source",
+      "Product_Interest",
+      "Budget_Allocated",
+      "Emirate",
+      "Salesperson_ID"
+    ],
+    "excluded_leakage_fields": [
+      "Conversion_Date",
+      "Converted_to_Sale",
+      "Lost_Reason",
+      "Sales_Cycle_Days",
+      "Sales_Stage"
+    ],
+    "training_population": "closed leads only (Won/Lost)",
+    "trained_on": "2026-08-15"
+  },
+  "churn": {
+    "champion": "Random Forest",
+    "performance": {
+      "Logistic Regression": {
+        "Accuracy": 0.6888888888888889,
+        "Precision": 0.48717948717948717,
+        "Recall": 0.7037037037037037,
+        "F1": 0.5757575757575758,
+        "ROC_AUC": 0.7368459729570841,
+        "CV_ROC_AUC_mean": 0.7612611569296465,
+        "CV_ROC_AUC_std": 0.030944083718705273,
+        "Train_ROC_AUC": 0.8325495109924981,
+        "Operating_Threshold": 0.29000000000000004,
+        "n_train": 540,
+        "n_test": 180
+      },
+      "Random Forest": {
+        "Accuracy": 0.6833333333333333,
+        "Precision": 0.47761194029850745,
+        "Recall": 0.5925925925925926,
+        "F1": 0.5289256198347108,
+        "ROC_AUC": 0.7371399176954733,
+        "CV_ROC_AUC_mean": 0.7590625771879513,
+        "CV_ROC_AUC_std": 0.03473016981257953,
+        "Train_ROC_AUC": 0.9247611918439083,
+        "Operating_Threshold": 0.33999999999999997,
+        "n_train": 540,
+        "n_test": 180
+      }
+    },
+    "confusion_matrix": {
+      "Logistic Regression": {
+        "TN": 86,
+        "FP": 40,
+        "FN": 16,
+        "TP": 38
+      },
+      "Random Forest": {
+        "TN": 91,
+        "FP": 35,
+        "FN": 22,
+        "TP": 32
+      }
+    },
+    "features_numeric": [
+      "Fleet_Size",
+      "Annual_Spend_AED",
+      "Spend_Growth_Pct",
+      "Contract_Age_Years",
+      "Days_To_Expiry",
+      "Days_Since_Last_Purchase",
+      "Days_Since_Last_Activity",
+      "Srv_Tickets",
+      "Srv_Avg_Sat",
+      "Srv_Min_Sat",
+      "Srv_Avg_Res",
+      "Srv_Repeat",
+      "Srv_Cost"
+    ],
+    "features_categorical": [
+      "Industry",
+      "Company_Size",
+      "Primary_Product",
+      "Competitor_Present",
+      "Emirate",
+      "Account_Value_Tier"
+    ],
+    "risk_rules": "Critical >70% & spend>200k; High >50% & spend>100k; Medium 30-50%; Low <30%",
+    "probability_calibration": "isotonic, 5-fold",
+    "trained_on": "2026-08-15"
+  }
+}

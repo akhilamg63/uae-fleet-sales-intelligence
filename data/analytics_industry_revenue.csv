@@ -1,0 +1,9 @@
+Industry,Accounts,Annual_Revenue_AED,Revenue_at_Risk_AED,Avg_Churn_Prob,Avg_Satisfaction,Risk_Ratio_Pct
+Logistics & Transport,150,278175000.0,101488903.0,31.1,3.9,36.5
+Construction & Contracting,123,265252000.0,116501132.0,33.9,3.8,43.9
+Oil & Gas Services,86,180219000.0,66180041.0,27.7,4.0,36.7
+Retail Distribution,75,176969000.0,76260260.0,31.7,3.9,43.1
+Car Rental & Leasing,88,173119000.0,55543323.0,27.5,3.8,32.1
+Facilities Management,75,136316000.0,48753531.0,28.1,3.9,35.8
+Hospitality & Tourism,65,111183000.0,41680769.0,29.1,3.9,37.5
+Government & Municipal,58,108292000.0,40325346.0,29.2,3.8,37.2

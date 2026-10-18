@@ -1,0 +1,26 @@
+severity,table,issue
+INFO,leads,"2,000 rows, 25 columns"
+OK,leads,duplicate Lead_ID: 0
+OK,leads,no unexpected missing values
+INFO,accounts,"720 rows, 29 columns"
+OK,accounts,duplicate Account_ID: 0
+OK,accounts,no unexpected missing values
+INFO,activities,"11,397 rows, 9 columns"
+OK,activities,duplicate Activity_ID: 0
+OK,activities,no unexpected missing values
+INFO,service,"4,251 rows, 9 columns"
+OK,service,duplicate Service_ID: 0
+OK,service,no unexpected missing values
+INFO,leads,"Sales_Cycle_Days null for 1392 non-converted leads (structural, retained)"
+OK,service,all Account_IDs resolve to accounts
+OK,activities,all Lead_IDs resolve to leads
+OK,leads,converted leads not in Won stage: 0
+OK,leads,conversion before creation: 0
+OK,accounts,contract expiry <= start: 0
+OK,service,satisfaction outside 1-5: 0
+WARN,leads,"Deal_Value_AED: 159 high outliers (> 8,646,750) - retained, large enterprise fleet deals are genuine"
+WARN,accounts,"Annual_Spend_AED: 44 high outliers (> 6,196,250) - retained, large enterprise fleet deals are genuine"
+INFO,leads,conversion rate 30.4% (608 positives)
+INFO,accounts,churn rate 30.1% (217 positives)
+INFO,leads,"LEAKAGE GUARD: Sales_Stage, Conversion_Date, Sales_Cycle_Days, Lost_Reason excluded from lead-scoring features (post-outcome fields)"
+INFO,accounts,LEAKAGE GUARD: Churn_Status excluded from churn features; only observable health/contract/spend signals used

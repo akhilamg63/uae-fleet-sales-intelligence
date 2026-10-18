@@ -1,0 +1,50 @@
+Feature,RF_Importance,LR_Coefficient
+Budget_Allocated_Yes,0.1562,0.6553
+Budget_Allocated_No,0.1431,-0.7928
+Days_in_Pipeline,0.1091,-0.4394
+Deal_Value_AED,0.0962,0.0671
+Fleet_Size,0.0825,0.1095
+Units_Requested,0.0691,0.1059
+Number_of_Sales_Calls,0.0635,0.1997
+Days_Since_Last_Contact,0.0551,-0.2046
+Lead_Source_Referral,0.0351,1.0399
+Company_Size_Small (<50),0.018,-0.5804
+Company_Size_Enterprise (1000+),0.0164,0.5306
+Lead_Source_Outbound,0.0142,-1.0953
+Lead_Source_Website,0.0137,-0.5141
+Lead_Source_LinkedIn,0.0104,-0.1726
+Company_Size_Large (250-999),0.0101,0.1829
+Lead_Source_Email,0.0099,-0.5686
+Lead_Source_Trade Shows,0.0091,0.4841
+Lead_Source_Partners,0.0081,0.6892
+Company_Size_Medium (50-249),0.0081,-0.2706
+Salesperson_ID_SP-08,0.0075,-0.5456
+Industry_Logistics & Transport,0.0064,0.4068
+Emirate_Dubai,0.0051,-0.2052
+Emirate_Abu Dhabi,0.0037,-0.1918
+Product_Interest_Passenger Sedan Fleet,0.0032,-0.1687
+Salesperson_ID_SP-05,0.0031,0.3514
+Product_Interest_Pickup Fleet,0.0028,0.3081
+Product_Interest_SUV Fleet,0.0028,0.0059
+Product_Interest_Light Commercial Vans,0.0027,-0.1088
+Product_Interest_Heavy Trucks,0.0027,0.3507
+Industry_Construction & Contracting,0.0026,0.1734
+Salesperson_ID_SP-03,0.0023,-0.1222
+Salesperson_ID_SP-01,0.0021,0.2171
+Product_Interest_Earth-Moving Equipment,0.0021,0.0741
+Emirate_Sharjah,0.0021,-0.0652
+Product_Interest_Bus Fleet,0.002,-0.5989
+Industry_Retail Distribution,0.0018,-0.0699
+Salesperson_ID_SP-02,0.0018,-0.0418
+Industry_Facilities Management,0.0018,-0.1869
+Industry_Car Rental & Leasing,0.0018,0.1245
+Salesperson_ID_SP-06,0.0018,-0.001
+Industry_Government & Municipal,0.0016,-0.2289
+Industry_Hospitality & Tourism,0.0015,-0.3388
+Salesperson_ID_SP-07,0.0014,-0.1278
+Salesperson_ID_SP-04,0.0013,0.1324
+Emirate_Ajman,0.0012,0.146
+Emirate_Ras Al Khaimah,0.001,0.1611
+Industry_Oil & Gas Services,0.0009,-0.0176
+Emirate_Umm Al Quwain,0.0005,0.1785
+Emirate_Fujairah,0.0001,-0.1609

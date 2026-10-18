@@ -1,0 +1,5 @@
+Sales_Stage,Deals,Pipeline_AED,Weighted_AED,Stage_Win_Prob_Pct
+Prospect,40,85811000.0,8581100.0,10.0
+Qualified,36,105045000.0,26261250.0,25.0
+Proposal,171,395071000.0,177781950.0,45.0
+Negotiation,133,346448000.0,242513600.0,70.0

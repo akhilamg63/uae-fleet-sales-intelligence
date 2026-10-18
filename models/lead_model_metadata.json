@@ -1,0 +1,69 @@
+{
+  "champion": "Logistic Regression",
+  "performance": {
+    "Logistic Regression": {
+      "Accuracy": 0.7580246913580246,
+      "Precision": 0.6551724137931034,
+      "Recall": 0.75,
+      "F1": 0.6993865030674846,
+      "ROC_AUC": 0.8236166007905139,
+      "CV_ROC_AUC_mean": 0.8039317445873195,
+      "CV_ROC_AUC_std": 0.022824991941882266,
+      "Train_ROC_AUC": 0.8236108221806162,
+      "n_train": 1215,
+      "n_test": 405
+    },
+    "Random Forest": {
+      "Accuracy": 0.745679012345679,
+      "Precision": 0.6484848484848484,
+      "Recall": 0.7039473684210527,
+      "F1": 0.6750788643533123,
+      "ROC_AUC": 0.8129030580403578,
+      "CV_ROC_AUC_mean": 0.793473777498223,
+      "CV_ROC_AUC_std": 0.020326088939294582,
+      "Train_ROC_AUC": 0.8640379770242471,
+      "n_train": 1215,
+      "n_test": 405
+    }
+  },
+  "confusion_matrix": {
+    "Logistic Regression": {
+      "TN": 193,
+      "FP": 60,
+      "FN": 38,
+      "TP": 114
+    },
+    "Random Forest": {
+      "TN": 195,
+      "FP": 58,
+      "FN": 45,
+      "TP": 107
+    }
+  },
+  "features_numeric": [
+    "Fleet_Size",
+    "Units_Requested",
+    "Deal_Value_AED",
+    "Days_in_Pipeline",
+    "Number_of_Sales_Calls",
+    "Days_Since_Last_Contact"
+  ],
+  "features_categorical": [
+    "Industry",
+    "Company_Size",
+    "Lead_Source",
+    "Product_Interest",
+    "Budget_Allocated",
+    "Emirate",
+    "Salesperson_ID"
+  ],
+  "excluded_leakage_fields": [
+    "Conversion_Date",
+    "Converted_to_Sale",
+    "Lost_Reason",
+    "Sales_Cycle_Days",
+    "Sales_Stage"
+  ],
+  "training_population": "closed leads only (Won/Lost)",
+  "trained_on": "2026-08-15"
+}

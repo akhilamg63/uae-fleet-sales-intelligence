@@ -1,0 +1,46 @@
+Feature,RF_Importance,LR_Coefficient
+Days_Since_Last_Purchase,0.2078,0.9096
+Srv_Avg_Sat,0.1007,-0.3176
+Fleet_Size,0.0822,0.3076
+Srv_Cost,0.0645,-0.0319
+Srv_Tickets,0.0577,0.3769
+Srv_Min_Sat,0.0467,-0.0441
+Annual_Spend_AED,0.0465,-0.3607
+Spend_Growth_Pct,0.0437,-0.0801
+Days_Since_Last_Activity,0.0421,0.1571
+Competitor_Present_Yes,0.0413,0.5075
+Competitor_Present_No,0.0409,-0.5139
+Srv_Avg_Res,0.0385,0.0597
+Contract_Age_Years,0.0361,-0.1334
+Days_To_Expiry,0.0342,-0.1581
+Srv_Repeat,0.0286,0.0686
+Company_Size_Enterprise (1000+),0.0146,0.1755
+Company_Size_Medium (50-249),0.0064,-0.1139
+Emirate_Dubai,0.0063,-0.044
+Industry_Construction & Contracting,0.0052,0.3075
+Primary_Product_SUV Fleet,0.0052,0.1394
+Account_Value_Tier_Silver,0.0045,0.0886
+Company_Size_Large (250-999),0.0042,0.0658
+Account_Value_Tier_Gold,0.004,-0.0171
+Primary_Product_Heavy Trucks,0.0036,0.0611
+Primary_Product_Passenger Sedan Fleet,0.0034,-0.1459
+Account_Value_Tier_Bronze,0.0031,0.1793
+Emirate_Abu Dhabi,0.0027,-0.0104
+Company_Size_Small (<50),0.0027,-0.1339
+Primary_Product_Pickup Fleet,0.0026,-0.596
+Industry_Logistics & Transport,0.0025,-0.0429
+Account_Value_Tier_Platinum,0.0024,-0.2573
+Emirate_Sharjah,0.0023,0.0602
+Primary_Product_Light Commercial Vans,0.0021,-0.3128
+Primary_Product_Bus Fleet,0.0019,0.2215
+Primary_Product_Earth-Moving Equipment,0.0014,0.6262
+Industry_Car Rental & Leasing,0.0013,-0.0868
+Industry_Retail Distribution,0.0012,-0.3039
+Industry_Oil & Gas Services,0.0011,0.0548
+Industry_Government & Municipal,0.0009,0.3351
+Industry_Facilities Management,0.0009,-0.0779
+Emirate_Ras Al Khaimah,0.0008,0.1136
+Emirate_Fujairah,0.0005,0.2015
+Industry_Hospitality & Tourism,0.0005,-0.1922
+Emirate_Ajman,0.0004,-0.0605
+Emirate_Umm Al Quwain,0.0,-0.267
